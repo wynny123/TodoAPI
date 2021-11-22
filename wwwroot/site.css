@@ -1,0 +1,48 @@
+﻿
+body {
+    background-color: #e3e2df;
+    margin: 0px;
+    font-family: verdana,Georgia,serif;
+    font-size: 14px;
+}
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+    padding: .2em 1em;
+}
+h1 {
+    color: #ee4c7c;
+    font-size: 200%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 100%;
+    color: #ee4c7c;
+    font-family: "Century Gothic", "Gill Sans", Ariel, Serif;
+}
+#counter {
+    font-size: 100%;
+    color: #ee4c7c;
+    font-family: "Century Gothic", "Gill Sans", Ariel, Serif;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    background-color: #e3afbc;
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
