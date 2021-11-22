@@ -4,15 +4,36 @@ body {
     margin: 0px;
     font-family: verdana,Georgia,serif;
     font-size: 14px;
+    
 }
 input[type='submit'], button, [aria-label] {
     cursor: pointer;
     padding: .2em 1em;
 }
 h1 {
+    
+    font-size: 250%;
+    text-align: center;
     color: #ee4c7c;
-    font-size: 200%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Century Gothic", "Gill Sans", Ariel, Serif;
+    margin: 20px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h2 {
+    font-size: 150%;
+    text-align: center;
+    color: #2f2fa2;
+    font-family: "Century Gothic", "Gill Sans", Ariel, Serif;
+    margin: 20px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 h3 {
